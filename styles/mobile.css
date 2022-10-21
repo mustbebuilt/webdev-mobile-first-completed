@@ -61,6 +61,26 @@ nav ul li a {
   width: 100%;
   height: auto;
 }
+form>div {
+  margin: 15px 0;
+}
+label {
+  display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+}
+input[type="submit"] {
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
 .videoContainer{
   display: flex;
   justify-content: center;
