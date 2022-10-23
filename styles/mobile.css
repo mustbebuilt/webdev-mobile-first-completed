@@ -78,7 +78,7 @@ nav ul li a {
 dt {
   font-weight: bold;
   border-top: 1px dashed #ccc;
-  padding: 20px 0;
+  padding: 20px 0 5px 0;
 }
 dt:first-child {
   border-top: none;
@@ -86,10 +86,33 @@ dt:first-child {
 
 dd {
   padding: 0 0 20px 0;
+  margin-left: 0;
 }
 .resize-img{
   width: 100%;
   height: auto;
+}
+/* table styles */
+table {
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+th,
+td {
+  padding: 10px 4px;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  border-bottom: 4px solid #000;
+  background-color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ccc;
 }
 /* form styles */
 form>div {
