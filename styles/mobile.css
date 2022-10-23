@@ -50,17 +50,48 @@ nav ul li a {
   color: #fff;
   padding: 8px 0;
 }
+/* burger menu */
 .burger > .line{
   width: 35px;
   height: 5px;
   background-color: #fff;
   margin: 6px 0;
+  transition: 0.4s;
+}
+/* Rotate first bar */
+.burger.changeBurger >.line:first-child {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.burger.changeBurger >.line:nth-child(2){
+  opacity:0;
+}
+.burger.changeBurger >.line:last-child {
+  transform: translate(0, -11px) rotate(45deg);
+}
+/* sidebar image */
+.sidebar img{
+  max-width: 200px;
+  display:block;
+  margin:auto;
+}
+/* definition list */
+dt {
+  font-weight: bold;
+  border-top: 1px dashed #ccc;
+  padding: 20px 0;
+}
+dt:first-child {
+  border-top: none;
 }
 
+dd {
+  padding: 0 0 20px 0;
+}
 .resize-img{
   width: 100%;
   height: auto;
 }
+/* form styles */
 form>div {
   margin: 15px 0;
 }
