@@ -15,7 +15,7 @@
           navBarStatus = false;
           navBar.style.height = "0px";
           // burger animation class
-          burgerMenu.classList.toggle("changeBurger");
+          //burgerMenu.classList.toggle("changeBurger");
           burgerMenu.setAttribute("class", "burger");
         } else {
           navBarStatus = true;
