@@ -16,11 +16,13 @@
           navBar.style.height = "0px";
           // burger animation class
           burgerMenu.classList.toggle("changeBurger");
+          burgerMenu.setAttribute("class", "burger");
         } else {
           navBarStatus = true;
           navBar.style.height = navHeight + "px";
           // burger animation class
-          burgerMenu.classList.toggle("changeBurger");
+          //burgerMenu.classList.toggle("changeBurger");
+          burgerMenu.setAttribute("class", "burger changeBurger");
         }
       });
     } else {
